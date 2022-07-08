@@ -36,6 +36,12 @@ jobs:
           echo test, and deploy your project.
   my_second_job:
     name: My seconf job
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Run a one-line script
+        run: echo Hello, world!
       
  
 
