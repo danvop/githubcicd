@@ -35,8 +35,7 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
   my_second_job:
-    name: My seconf job
-
+    
     steps:
       - uses: actions/checkout@v3
 
