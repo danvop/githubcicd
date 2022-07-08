@@ -34,5 +34,11 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-      - name: Run git pull on prod server
-        run: ssh danvop@danvop.com
+  test ssh:
+    steps:
+      - name: Run a one-line script
+        run: echo Hello SSH!
+      
+ 
+
+  
