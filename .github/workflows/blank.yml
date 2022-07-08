@@ -34,14 +34,7 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-  test ssh:
-    build:
-    # The type of runner that the job will run on
-    runs-on: ubuntu-latest
-    
-    steps:
-      - name: Run a one-line script
-        run: echo Hello SSH!
+
       
  
 
