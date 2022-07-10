@@ -53,6 +53,8 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.SERVER_PORT }}
           script: |
+            cd www/githubcicd/
+            ls
             git fetch origin master
             git pull origin master
 
