@@ -55,7 +55,6 @@ jobs:
           script: |
             cd www/githubcicd/
             ls
-            git fetch origin master
             git pull origin master
 
   
