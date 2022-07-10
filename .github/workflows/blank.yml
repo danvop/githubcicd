@@ -50,6 +50,7 @@ jobs:
           echo Hello world
           ls -l
           echo Hello world again
+          echo ${{ secrets.TEST_SECRET}}
       
  
 
