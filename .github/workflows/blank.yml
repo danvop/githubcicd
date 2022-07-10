@@ -48,7 +48,8 @@ jobs:
       - name: Custom job
         run: |
           echo Hello world
-          ls -l
+          echo ls -l
+          echo Hello world again
       
  
 
