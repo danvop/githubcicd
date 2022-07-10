@@ -38,7 +38,7 @@ jobs:
       - name: Run custom command
         run : |
           echo Hellow world
-  Custopm job:
+  Custop:
     runs-on: ubuntu-latest
 
     steps:
