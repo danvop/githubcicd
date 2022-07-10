@@ -43,11 +43,11 @@ jobs:
 
     steps:
 
-    - uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-    - name: Custom job
-      run: |
-        echo Hello world
+      - name: Custom job
+        run: |
+          echo Hello world
       
  
 
