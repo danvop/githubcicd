@@ -76,8 +76,6 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.SERVER_PORT }}
           script: |
-            cd www/githubcicd/
-            ls
-            git pull origin master
+            cd www/githubcicd/ &&  git pull origin master
 
   
