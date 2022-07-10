@@ -38,20 +38,23 @@ jobs:
       - name: Run custom command
         run : |
           echo Hellow world
-  Custom:
+  Deploy:
     runs-on: ubuntu-latest
 
     steps:
 
       # - uses: actions/checkout@v3
 
-      - name: Custom job
+      - name: Check ls command
         run: |
-          echo Hello world
-          ls -l
-          echo Hello world again
-          echo ${{ secrets.TEST_SECRET}}
-      
+          uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.SERVER_HOST }}
+          username: ${{ secrets.SERVER_USERNAME }}
+          key: ${{ secrets.SERVER_KEY }}
+          port: ${{ secrets.SERVER_PORT }}
+          script: |
+            ls -la
  
 
   
