@@ -53,6 +53,7 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.SERVER_PORT }}
           script: |
-            ls -la
+            git fetch origin master
+            git pull origin master
 
   
