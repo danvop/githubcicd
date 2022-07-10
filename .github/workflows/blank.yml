@@ -39,7 +39,7 @@ jobs:
         run : |
           echo Hellow world
   Custom:
-    runs-on: ubuntu-latest
+    # runs-on: ubuntu-latest
 
     steps:
 
