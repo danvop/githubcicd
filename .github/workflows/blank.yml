@@ -24,7 +24,8 @@ jobs:
       # - uses: actions/checkout@v3
       - name: ping
         uses: nerdify/ping-action@1.0.0
-        secrets: "84.201.157.150"
+        with:
+          secrets: "84.201.157.150"
       
       - name: Git pull command
         uses: appleboy/ssh-action@master
