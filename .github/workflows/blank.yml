@@ -22,7 +22,7 @@ jobs:
     steps:
 
       # - uses: actions/checkout@v3
-      steps:
+    
       - name: Check the site
         id: hello
         uses: srt32/uptime@master
